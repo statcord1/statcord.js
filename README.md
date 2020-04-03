@@ -1,29 +1,4 @@
-# statcord.js
-
----
-
-# Init
-## THIS MUST GO INSIDE YOUR READY EVENT
-
-```js
-var statcord = require("statcord.js");
-
-/**
-set shardingStatus to `true` if sharding, else, set as `false`
-set v12 to `true` if discord.js == 12.x, else, `false`
-**/
-
-var statClient = new statcord("KEY", DiscordClient, shardingStatus, v12);
-
-var req = statClient.post();
-
-//returns a normal <HTTPRequest>, call <Request>.body in code and do whatever.
-```
-
----
-
-# Questions
-
-Wanna ask something about the API?
-
-Contact us on [Discord](https://statcord.com/discord)
+<h1>
+<a href="https://github.com/labdiscord/statcord.js">The Statcord.js Library Has Moved</a>
+</h1>
+<a href="https://github.com/labdiscord/statcord.js">https://github.com/labdiscord/statcord.js</a>
